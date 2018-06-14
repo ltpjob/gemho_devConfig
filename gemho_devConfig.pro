@@ -25,9 +25,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    crc32.c
+    crc32.c \
+    qiplineedit.cpp
 
 HEADERS  += mainwindow.h \
-    crc32.h
+    crc32.h \
+    qiplineedit.h
 
 FORMS    += mainwindow.ui
